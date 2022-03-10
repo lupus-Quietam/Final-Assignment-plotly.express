@@ -185,8 +185,8 @@ def get_graph(chart, year, children1, children2, c3, c4, c5):
             tree_fig = px.treemap(
                 tree_data, 
                 path=['DestState', 'Reporting_Airline'],
-                values='flights',
-                color='flights',
+                values='Flights',
+                color='Flights',
                 color_continuous_scale='RdBu',
                 title='Flight count by airline to destination state'
             )
